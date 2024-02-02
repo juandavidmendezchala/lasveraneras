@@ -1,0 +1,78 @@
+/* Navbar.css */
+.navbar-container {
+  position: relative;
+}
+
+.navbar {
+  background-color: #172033;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+.brand-link {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.brand-link:hover h1 {
+  color: #393C42;
+}
+
+.brand-link:hover li {
+  color: #393C42;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+  font-size: 18px; /* Tamaño de letra ajustado */
+  font-weight: bold; /* Tipo de letra más audaz */
+  font-family: 'Arial', sans-serif; /* Tipo de letra elegido */
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active-link:hover {
+  color: #393C42; /* Cambia el color al pasar el mouse según tus preferencias */
+}
+
+.active-link {
+  color: #2ecc71;
+}
+
+.button-container {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  display: flex;
+}
+
+.button-container button {
+  background-color: #3498db;
+  color: white;
+  font-size: 1.5em;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+  background-color: #2980b9;
+}

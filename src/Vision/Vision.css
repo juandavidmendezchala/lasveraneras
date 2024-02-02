@@ -1,0 +1,15 @@
+/* Vision.css */
+.vision-container {
+    background-color: #ecf0f1; /* Color de fondo del recuadro */
+    border-radius: 8px; /* Bordes redondeados para un aspecto más elegante */
+    padding: 20px; /* Espaciado interno para el contenido */
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+  }
+  
+  .vision-container.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+  

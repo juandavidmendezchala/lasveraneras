@@ -1,0 +1,28 @@
+/* Footer.css */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px; /* Reducir el espaciado */
+    text-align: center;
+    font-size: 14px; /* Reducir el tamaño del texto */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content {
+    max-width: 600px; /* Limitar el ancho del contenido del footer si es necesario */
+    margin: 0 auto; /* Centrar el contenido del footer en el centro de la página */
+  }
+  
+  .footer a {
+    color: #fff; /* Cambiar el color de los enlaces en el footer */
+    font-size: 14px; /* Ajustar el tamaño del texto de los enlaces */
+    text-decoration: none;
+    margin: 0 10px; /* Ajustar el espaciado entre enlaces si es necesario */
+  }
+  
+  .footer a:hover {
+    text-decoration: underline; /* Agregar subrayado al pasar el mouse sobre los enlaces */
+  }
+  
